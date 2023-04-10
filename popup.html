@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BlackCatBlocker - Options</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+
+      button {
+        display: block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #2b2d42;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #3d3f5c;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BlackCatBlocker</h1>
+    <label>
+     Ads Blocker
+      <input type="checkbox" id="switch1">
+    </label>
+    <label>
+      Cookies Blocker
+      <input type="checkbox" id="switch2">
+      <a href="cookies.html">Eccezioni</a>
+    </label>
+    <label>
+     Cookies Popup Blocker
+      <input type="checkbox" id="switch3">
+    </label>
+    <a href="blocked-cookies.html">BlockedCookies</a>
+    <button id="save-btn">Save</button>
+    <button id="site-btn">Go to website</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
