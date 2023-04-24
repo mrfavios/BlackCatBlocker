@@ -6,3 +6,4 @@ An extension to protect you while browsing.
 
 <h2>CURRENT SUPPORTS</h2>
 - tabs blocker
+- youtube ads blocker
