@@ -13,7 +13,7 @@ function saveOptions() {
 	
 	ls.setItem("switch1", switch1.checked);
 	ls.setItem("switch2", switch2.checked);
-	ls.setItem("switch3", switch3.checked);
+	
 }
 
 
@@ -40,7 +40,6 @@ function loadOptions() {
 
   setOption("switch1", switch1);
   setOption("switch2", switch2);
-  setOption("switch3", switch3);
   
 }
 
@@ -51,7 +50,6 @@ siteBtn.addEventListener('click', function() {
   });
 
 loadOptions();
-
 
 
 

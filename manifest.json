@@ -8,7 +8,7 @@
   "icons": {
     "48": "icon.png"
   },
-  "permissions": ["scripting","cookies","tabs", "activeTab", "storage", "webRequest", "webRequestBlocking"],
+  "permissions": ["scripting","cookies","tabs", "activeTab", "storage", "webRequest", "webRequestBlocking", "webNavigation"],
   "host_permissions": [
   "<all_urls>",
   "*://*/*"

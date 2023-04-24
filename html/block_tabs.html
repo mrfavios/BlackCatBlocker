@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BlackCatBlocker</title>
+</head>
+
+<style>
+
+
+div.scroll {
+  background-color: lightblue;
+  width: 400px;
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-left: 5px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+button {
+        display: block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #2b2d42;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+button:hover {
+        
+        background-color: #3d3f5c;
+}
+
+</style>
+
+<body>
+
+    <h1>Block new tabs</h1>
+    <p>Current site URL: <span id="currentUrl"></span></p>
+
+    <button id="blockBtn">Block this site</button>
+    
+    <button id="unblockBtn" style="display: none;">UnBlock this site</button>
+
+    <div id="allowInputContainer" style="display: none;">
+        <label for="allowInput">Enter allowed site:</label>
+        <input type="text" id="allowInput">
+        <button id="addAllowBtn">Add</button>
+    </div>
+    <p>(Enter only domain like: www.example.com)</p>
+    
+    <div id="allowedSitesList" class="scroll" style="white-space: pre-line">
+    	Allowed Sites List:
+    </div>
+    
+    <script src="../js/block_tabs.js"></script>
+    
+</body>
+</html>
+
