@@ -176,6 +176,7 @@ function deleteCookiesOnChanged(){
 	      storeId: changeInfo.cookie.storeId
 	    
 	    });
+	    console.log("COOKIE RIMOSSO");
 	  
 	  }
 	

@@ -83,7 +83,7 @@ browser.tabs.query({ active: true, currentWindow: true }).then(async (tabs) => {
             		
             		if(currentDomain){
 		    		
-			    	if(!blockedSites[currentDomain].hasOwnProperty("active")){
+			    	if(!blockedSites.hasOwnProperty(currentDomain)){
 		    			
 			    		blockedSites[currentDomain] = {"sites": [], "active": true};
 					
